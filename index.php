@@ -55,7 +55,7 @@ function getDirContents($dir, $bpath, $cpath = '', &$results = array())
         ],
         [
             'title' => "Esercizi fatti da Me",
-            'path' => '/esercizi',
+            'path' => '/Esercizi',
             'class' => 'esercizi'
         ]
     ];
