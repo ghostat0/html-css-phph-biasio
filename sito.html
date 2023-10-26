@@ -1,259 +1,195 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restraunt</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css" />
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/w3images/pizza.jpg");
+  min-height: 90%;
+}
+</style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-            <ul class="menu-items">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#food">Category</a></li>
-                <li><a href="#food-menu">Menu</a></li>
-                <li><a href="#testimonials">Testimonial</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <h1 class="logo">RS</h1>
-        </div>
-    </nav>
-    <section class="showcase-area" id="showcase">
-        <div class="showcase-container">
-            <h1 class="main-title" id="home">Eat Right Food</h1>
-            <p>Eat Healty, it is good for our health.</p>
-            <a href="#food-menu" class="btn btn-primary">Menu</a>
-        </div>
-    </section>
-    <section id="about">
-        <div class="about-wrapper container">
-            <div class="about-text">
-                <p class="small">About Us</p>
-                <h2>We've beem making healthy food last for 10 years</h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ab
-                    eos omnis, nobis dignissimos perferendis et officia architecto,
-                    fugiat possimus eaque qui ullam excepturi suscipit aliquid optio,
-                    maiores praesentium soluta alias asperiores saepe commodi
-                    consequatur? Perferendis est placeat facere aspernatur!
-                </p>
-            </div>
-            <div class="about-img">
-                <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
-            </div>
-        </div>
-    </section>
-    <section id="food">
-        <h2>Types of food</h2>
-        <div class="food-container container">
-            <div class="food-type fruite">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>fruite</h3>
-                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type vegetable">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>vegetable</h3>
-                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="food-type grin">
-                <div class="img-container">
-                    <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
-                    <div class="img-content">
-                        <h3>grin</h3>
-                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="blank">learn
-                            more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="food-menu">
-        <h2 class="food-menu-heading">Food Menu</h2>
-        <div class="food-menu-container container">
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 2</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 3</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 4</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 5</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 6</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="testimonials">
-        <h2 class="testimonial-title">What Our Customers Say</h2>
-        <div class="testimonial-container container">
-            <div class="testimonial-box">
-                <div class="customer-detail">
-                    <div class="customer-photo">
-                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
-                        <p class="customer-name">Ross Lee</p>
-                    </div>
-                </div>
-                <div class="star-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                    voluptas cupiditate aspernatur odit doloribus non.
-                </p>
-            </div>
-            <div class="testimonial-box">
-                <div class="customer-detail">
-                    <div class="customer-photo">
-                        <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
-                        <p class="customer-name">Amelia Watson</p>
-                    </div>
-                </div>
-                <div class="star-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                    voluptas cupiditate aspernatur odit doloribus non.
-                </p>
-            </div>
-            <div class="testimonial-box">
-                <div class="customer-detail">
-                    <div class="customer-photo">
-                        <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
-                        <p class="customer-name">Ben Roy</p>
-                    </div>
-                </div>
-                <div class="star-rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <p class="testimonial-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-                    voluptas cupiditate aspernatur odit doloribus non.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="contact-container container">
-            <div class="contact-img">
-                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
-            </div>
-            <div class="form-container">
-                <h2>Contact Us</h2>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="E-Mail" />
-                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
-                <a href="#" class="btn btn-primary">Submit</a>
-            </div>
-        </div>
-    </section>
-    <footer id="footer">
-        <h2>Restraunt &copy; all rights reserved</h2>
-    </footer>
-    <!-- .................../ JS Code for smooth scrolling /...................... -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-</html>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">thin<br>CRUST PIZZA</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Salads</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+      <hr>
+   
+      <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+      <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+      <hr>
+      
+      <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
+      <hr>
+
+      <h1><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+      <hr>
+
+      <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+      <hr>
+
+      <h1><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+      <hr>
+   
+      <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+      <p class="w3-text-grey">Ravioli filled with cheese</p>
+      <hr>
+      
+      <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+      <hr>
+
+      <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+      <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+    </div>
+
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+      <p class="w3-text-grey">Ask the waiter</p>
+      <hr>
+   
+      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+      <hr>
+      
+      <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+      <hr>
+      
+      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+      <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p><strong>The Chef?</strong> Mr. Italiano himself<img src="/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+    <p>We are proud of our interiors.</p>
+    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at some address at some place or call us at 05050515-122330</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
 </body>
 </html>
